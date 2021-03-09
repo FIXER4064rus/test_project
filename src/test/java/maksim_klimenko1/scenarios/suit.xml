@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Testing" parallel="methods" thread-count="3">
+    <test name="Testing">
+        <classes>
+            <class name="maksim_klimenko1.scenarios.WebServicesTestsRestAssured"/>
+        </classes>
+    </test>
+</suite>
